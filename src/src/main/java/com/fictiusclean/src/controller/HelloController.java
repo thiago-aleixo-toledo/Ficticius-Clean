@@ -11,6 +11,4 @@ public class HelloController {
     public ResponseEntity<String> getMethodName() {
         return ResponseEntity.ok("Hello World VS Code");
     }
-    
-    
 }
