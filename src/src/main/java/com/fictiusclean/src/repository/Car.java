@@ -47,6 +47,8 @@ public class Car {
     @Column
     private double averageHighWay;
 
+    public Long getIdCar() { return this.id; }
+
     public void setNameCar(String nameCar) { this.nameCar = nameCar; }
     public String getNameCar() { return this.nameCar; }
 
